@@ -1,0 +1,14 @@
+[
+	{
+		"module":"characteristic",
+		"description":"Handles the details of characteristics of all plants which includes specification like tolerence limits, followup frequency period for CPRI/IRPS calculation. A Characteristic may be either measure or defective type."
+	},
+	{
+		"module":"calendar",
+		"description":"Manages every year industrial shift activities and shift timings for all Sectors. CPRI (or) IRPS calculation for Characteristics is based on Calendar activities"
+	},
+	{
+		"module":"measure and alerts",
+		"description":"Measurements are provided as inputs for characteristics. One or more measures forms a Sample. A Sample can be deactivated or reintegrated. Based on tolerence specification of a characteristic, a Sample is decided as alert or valid"
+	}
+]

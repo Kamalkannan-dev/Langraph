@@ -1,0 +1,50 @@
+[
+	{
+		"table_name":"tb0178_indust_month_calendar",
+		"module":"Calendar",
+		"description":"Stores the industrial start and end dates of each month for every year. Industrial Month and year of a date can be found using this table.",
+		"business_concepts":[
+			"Month number", "Calendar", "Industrial month", "Month start and end date"
+		]
+	},
+	{
+		"table_name":"tb0297_indust_week_calendar",
+		"module":"Calendar",
+		"description":"Stores the industrial start and end dates of each week for every year. Week number and year of a date can be found using this table.",
+		"business_concepts":[
+			"Week number", "Calendar", "Industrial week", "Week start and end date"
+		]
+	},
+	{
+		"table_name":"tb0205_week_day_shift",
+		"module":"Calendar",
+		"description":"Static table, contains fixed number of rows for every year contains Details of all shifts of the year, includes shift number, day number, week number, month number, Shift type",
+		"business_concepts":[
+			"Calendar","Shift number", "Day number", "Week number", "Month number", "Type of the shift"
+		]
+	},
+	{
+		"table_name":"tb0083_secteurs",
+		"module":"Calendar",
+		"description":"Stores all sectors in every plants. A Sector is a combination of Plant, Trade, Vehicle project, Line and Fops.",
+		"business_concepts":[
+			"Plant relationship to calendar", "Plant/Trade/Vehicle project (or) Part reference/Line/FOPS"
+		]
+	},
+	{
+		"table_name":"tb0005_calendriers",
+		"module":"Calendar",
+		"description":"Stores calendars for all sector for every year. Start and end timings of 3 shifts are stored",
+		"business_concepts":[
+			"Sector calendar relationship", "Calendar for a sector of a Year", "Shift timings"
+		]
+	},
+	{
+		"table_name":"tb0206_shift_details",
+		"module":"Calendar",
+		"description":"Contains shift activity (Active/Inactive) and begin date of every shift for all Calendars",
+		"business_concepts":[
+			"Shift activity", "Calendar shift relationship", "Shift begin date"
+		]
+	}
+]
