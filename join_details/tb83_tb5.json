@@ -1,0 +1,6 @@
+{
+	"table1":"tb0083_secteurs tb83",
+	"table2":"tb0005_calendriers tb5",
+	"join_condition":"tb83.sect_id = tb5.cal_sect_id",
+	"relationship":"Many calendars for one sector each for one year"
+}

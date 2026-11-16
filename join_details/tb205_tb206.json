@@ -1,0 +1,6 @@
+{
+	"table1":"tb0205_week_day_shift tb205",
+	"table2":"tb0206_shift_details tb206",
+	"join_condition":"tb205.wds_shift_id = tb206.sd_shift_id",
+	"relationship":"One shift id in tb0205_week_day_shift has many rows in tb0206_shift_details for all calendars"
+}

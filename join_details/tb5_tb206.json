@@ -1,0 +1,6 @@
+{
+	"table1":"tb0005_calendriers tb5",
+	"table2":"tb0206_shift_details tb206",
+	"join_condition":"tb5.cal_id = tb206.sd_cal_id",
+	"relationship":"Many shifts for one calendar"
+}
