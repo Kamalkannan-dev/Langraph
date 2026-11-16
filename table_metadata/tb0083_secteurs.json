@@ -1,0 +1,42 @@
+{
+	"table_name":"tb0083_secteurs",
+	"module":"Calendar",
+	"description":"Stores Details of a calendar. A Calendar is a combination of Plant, Trade, Vehicle project, Line and Fops. This Combination is called as a Sector",
+	"columns":[
+		{
+			"name":"sect_id",
+			"type":"numeric",
+			"description":"Primary key"
+		},
+		{
+			"name":"sect_usin_id",
+			"type":"varchar(3)",
+			"description":"Plant id of the sector"
+		},
+		{
+			"name":"sect_meti_id",
+			"type":"varchar(2)",
+			"description":"Trade id of the sector. Label of the id is stored in Tb0152. For Eg: Machining, Assembly, Body shop"
+		},
+		{
+			"name":"sect_pveg_projet_vehicule",
+			"type":"varchar(15)",
+			"description":"Vehicle project/Part reference of the sector"
+		},
+		{
+			"name":"sect_ligne",
+			"type":"varchar(30)",
+			"description":"Ligne/Line of the sector"
+		},
+		{
+			"name":"sect_ordre",
+			"type":"numeric",
+			"description":"not used currently"
+		},
+		{
+			"name":"sect_fops",
+			"type":"numeric",
+			"description":"FOPS of the sector. Used only for powertrain Plant"
+		}
+	]
+}

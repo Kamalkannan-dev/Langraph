@@ -1,0 +1,27 @@
+{
+	"table_name":"tb0297_indust_week_calendar",
+	"module":"Calendar",
+	"description":"Stores the industrial start and end dates of each week for every year. Week number and year of a date can be found using this table.",
+	"columns":[
+		{
+			"name":"iwc_year",
+			"type":"numeric",
+			"description":"year of the week"
+		},
+		{
+			"name":"iwc_week_no",
+			"type":"numeric",
+			"description":"month number"
+		},
+		{
+			"name":"iwc_week_start_date",
+			"type":"timestamp",
+			"description":"start date of the week"
+		},
+		{
+			"name":"iwc_week_end_date",
+			"type":"timestamp",
+			"description":"end date of the week"
+		}
+	]
+}

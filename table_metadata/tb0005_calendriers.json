@@ -1,0 +1,52 @@
+{
+	"table_name":"tb0005_calendriers",
+	"module":"Calendar",
+	"description":"Stores calendars for each sector for every year. Start and end timings of 3 shifts are stored",
+	"columns":[
+		{
+			"name":"cal_id",
+			"type":"numeric",
+			"description":"Primary key"
+		},
+		{
+			"name":"cal_sect_id",
+			"type":"numeric",
+			"description":"Sector of the calendar"
+		},
+		{
+			"name":"cal_annee",
+			"type":"numeric",
+			"description":"Year of the calendar"
+		},
+		{
+			"name":"cal_hor_deb_ma",
+			"type":"varchar(5)",
+			"description":"Start time of the morning shift in HH:Mi format"
+		},
+		{
+			"name":"cal_hor_fin_ma",
+			"type":"varchar(5)",
+			"description":"End time of the morning shift in HH:Mi format"
+		},
+		{
+			"name":"cal_hor_deb_ap",
+			"type":"varchar(5)",
+			"description":"Start time of the afternoon shift in HH:Mi format"
+		},
+		{
+			"name":"cal_hor_fin_ap",
+			"type":"varchar(5)",
+			"description":"End time of the afternoon shift in HH:Mi format"
+		},
+		{
+			"name":"cal_hor_deb_so",
+			"type":"varchar(5)",
+			"description":"Start time of the night shift in HH:Mi format"
+		},
+		{
+			"name":"cal_hor_fin_so",
+			"type":"varchar(5)",
+			"description":"End time of the night shift in HH:Mi format"
+		}
+	]
+}

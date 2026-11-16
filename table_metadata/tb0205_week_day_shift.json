@@ -1,0 +1,42 @@
+{
+	"table_name":"tb0205_week_day_shift",
+	"module":"Calendar",
+	"description":"Contains Details of all shifts of the year, includes shift number, day number, week number, month number, Shift type",
+	"columns":[
+		{
+			"name":"wds_shift_id",
+			"type":"numeric",
+			"description":"Primary key"
+		},
+		{
+			"name":"wds_year",
+			"type":"numeric",
+			"description":"year of the shift"
+		},
+		{
+			"name":"wds_week_no",
+			"type":"numeric",
+			"description":"week number of the shift. Starts from 1 for every year"
+		},
+		{
+			"name":"wds_month_no",
+			"type":"numeric",
+			"description":"month number of the shift. Starts from 1 for every year"
+		},
+		{
+			"name":"wds_day_no",
+			"type":"numeric",
+			"description":"day number of the shift. Starts from 1 for every year"
+		},
+		{
+			"name":"wds_shift_no",
+			"type":"numeric",
+			"description":"shift number of the shift. Starts from 1 for every year"
+		},
+		{
+			"name":"wds_shift_type",
+			"type":"varchar(1)",
+			"description":"Shift type of the shift. M - Morning shift; A - Afternoon shift; N - Night shift"
+		}
+	]
+}

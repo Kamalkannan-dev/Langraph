@@ -1,0 +1,32 @@
+{
+	"table_name":"tb0206_shift_details",
+	"module":"Calendar",
+	"description":"Contains shift activity (Active/Inactive) and begin date of every shift of all Calendars",
+	"columns":[
+		{
+			"name":"sd_shift_id ",
+			"type":"numeric",
+			"description":"Primary key, shift id from tb0205_week_day_shift"
+		},
+		{
+			"name":"sd_cal_id",
+			"type":"numeric",
+			"description":"Primary key, calendar id from tb0005_calendriers"
+		},
+		{
+			"name":"sd_shift_begin_date",
+			"type":"timestamp",
+			"description":"Begin date and time of the shift"
+		},
+		{
+			"name":"sd_is_active",
+			"type":"numeric",
+			"description":"Shift active status, 0 - Inactive; 1 - Active"
+		},
+		{
+			"name":"sd_is_locked",
+			"type":"numeric",
+			"description":"Shift lock status, 0 - not locked; 1 - Locked"
+		}
+	]
+}

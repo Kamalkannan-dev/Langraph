@@ -1,0 +1,27 @@
+{
+	"table_name":"tb0178_indust_month_calendar",
+	"module":"Calendar",
+	"description":"Stores the industrial start and end dates of each month for every year. Month and year of a date can be found using this table.",
+	"columns":[
+		{
+			"name":"imc_year",
+			"type":"numeric",
+			"description":"year of the month"
+		},
+		{
+			"name":"imc_month",
+			"type":"numeric",
+			"description":"month number"
+		},
+		{
+			"name":"imc_begin_date",
+			"type":"timestamp",
+			"description":"start date of the month"
+		},
+		{
+			"name":"imc_end_date",
+			"type":"timestamp",
+			"description":"end date of the month"
+		}
+	]
+}
